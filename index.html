@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>My First Live Page!B</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+</head>
+
+<body onclick="closeMenu()">
+    <div class="modal">
+        <div class="modal-contant">
+            <button class="close" onclick="closeModal()">&times;</button>
+            <h2>Join Us to get accsses to the latest stories!</h2>
+            <input class="email" placeholder="Enter your E-Mail here" />
+            <button class="submit">submit!</button>
+        </div>
+    </div>
+    <header class="margin-zero text-align-center">
+        <div class="container justify-space-between flex-wrap max-width margin-zero head-container">
+            <h1 class="logo margin-zero">Blogin
+            </h1>
+            <div class="hamburger" onclick="toggleMenu()"></div>
+            <nav>
+                <ul class="nav-list container justify-center flex-wrap margin-zero text-align-center">
+                    <li>
+                        <a class="active nav-item" href="#">Journal</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">Work</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="margin-zero max-width">
+        <div class="container justify-center flex-colom main-container">
+            <div class="container justify-center flex-colom max-width">
+                <div class="container justify-space-around container-item">
+                    <img src="img/firstPic.png" alt="" />
+                    <div class="container flex-colom text-container">
+                        <div class="text-header">
+                            Duis aute irure dolor in henderit in voluptate.
+                        </div>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                        </p>
+                        <button class="continue-read" onclick="openModal()">Continue Reading</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container justify-center flex-colom max-width">
+                <div class="container justify-space-around container-item">
+                    <img src="img/secPic.png" alt="" />
+                    <div class="container flex-colom text-container">
+                        <div class="text-header">
+                            Duis aute irure dolor in henderit in voluptate.
+                        </div>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                        </p>
+                        <button class="continue-read" onclick="openModal()">Continue Reading</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container justify-center flex-colom max-width">
+                <div class="container justify-space-around container-item">
+                    <img src="img/thirdPic.png" alt="" />
+                    <div class="container flex-colom text-container">
+                        <div class="text-header">
+                            Duis aute irure dolor in henderit in voluptate.
+                        </div>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                        </p>
+                        <button class="continue-read" onclick="openModal()">Continue Reading</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="next-prev container justify-space-between">
+            <div class="previous">previous</div>
+            <div class="next">next</div>
+        </div>
+    </main>
+    <footer class="margin-zero text-align-center">
+        <div class="logo footer-logo">Blogin
+        </div>
+        <div class="footer-copyright">© 2014 Blogin.com - All Rights Reserved - Find more free Templates at
+            <span>Pixelhint.com</span>
+        </div>
+        <div class="button-bottom">
+            <ul class="container justify-space-between margin-zero text-align-center social-buttons">
+                <li>
+                    <button class="social-buttons facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="social-buttons twiter">
+                        <i class="fab fa-twitter"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="social-buttons behance">
+                        <i class="fab fa-behance"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="social-buttons dribbble">
+                        <i class="fab fa-dribbble"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    </div>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
